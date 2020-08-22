@@ -1,0 +1,7 @@
+running
+hey
+
+
+password found:  hey 
+you can kill the background process
+thread  0 :no password_found

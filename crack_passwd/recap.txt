@@ -1,0 +1,36 @@
+
+Let's recap: only with bruteforce, we have (approximatively)
+with md5 hash:
+y hacked by x in:       laptop       800$ desktop PC(CPU)       150$ GPU     10k$ bitcoin rig  4k$ ASIC
+'easy'                  20s          1s                         instant      instant           instant 
+'Hello'                 4h           20min                      10min        5s                instant
+'8bIta3dY'              28y          2y                         1y           3d                instant 
+'Md3eiUmL0ng'           millenia     millenia                   millenia     millenia          3h 
+'EZ2reM3MBERp4swd'      millenia     millenia                   millenia     millenia          millenia 
+'$péçIal0C%r'           millenia     millenia                   millenia     millenia          1y 
+
+with sh512 hash(now standard for most services):
+y hacked by x in:       laptop        800$ desktop PC(CPU)     150$ GPU     10k$ bitcoin rig   4k$ ASIC
+'easy'                  minutes       seconds                  seconds      seconds            instant
+'Hello'                 2d            3h                       1h           1min               instant
+'8bIta3dY'              300y          20y                      10y          30d                seconds
+'Md3eiUmL0ng'           millenia      millenia                 millenia     millenia           12d
+'EZ2reMEMBERp4swd'      millenia      millenia                 millenia     millenia           millenia
+'$péçIal0C%r'           millenia      millenia                 millenia     millenia           100y
+
+Those are not random numbers, but rather educated guesses made with calc & spreadsheet. These numbers are only there to provide
+some insight about how password complexity and crack time scale and may not represent excatly how much time a (smart)
+attacker may need to bruteforce your password. Just changing the first character from 'e' to '9' can make it 50x longer.
+You are not safe if you password would take just a few years to crack. Valuable targets such as CEO's passwords are often
+worth it, plus do not forget about the (fast) evolution of the computing market: in a few years it could take a tenth of the
+previous time to crack your password. An attacker can also rent computing power on Amazon on the cheap.
+
+
+Now about the dictionnary attack: 
+Whatever your password, if it is in a dictionnary (some of them on the net contains millions of passwords),
+your password will be found in a matter of minutes.
+A combination of 2 words from the dictionnary will take bewteen days and decades to crack with mainstream hardware.
+'Passphrases' are a good idea in general, but only if they cannot be guessed, proverbs and famous quotes are not secure.
+
+
+Remember that my program did not support special characters, but you should really use them whenever you can. 

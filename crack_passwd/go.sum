@@ -1,0 +1,4 @@
+github.com/kless/osutil v0.0.0-20161130133508-7d3ee1afa71c h1:Ws2FH852iLedKasudbpV3+MKwbN+hXGAMPxvPUG+uvE=
+github.com/kless/osutil v0.0.0-20161130133508-7d3ee1afa71c/go.mod h1:LZaf5qvVZ+3l5zlCzA16taxy7wjDOf+5kb2StXn1rsQ=
+github.com/tredoe/osutil v0.0.0-20161130133508-7d3ee1afa71c h1:5q7IHeqvAA4hWR1CfpTOS7RFsTDC36TaSZ8Dvc00bPk=
+github.com/tredoe/osutil v0.0.0-20161130133508-7d3ee1afa71c/go.mod h1:M/I710pXKQToMdqt/D+mJ4QsnW6WDaajyB6DWFmDXBs=
